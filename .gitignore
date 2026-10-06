@@ -1,0 +1,10 @@
+# Private sources, audit outputs, environments, model data, and grading artifacts.
+.local/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.env
+.env.*
+!.env.example

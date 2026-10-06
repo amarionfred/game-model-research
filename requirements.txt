@@ -1,0 +1,4 @@
+# GPU calibration uses Kaggle's measured torch 2.11.0+cu128 runtime.
+# CPU numerical checks additionally record their exact installed versions.
+torch>=2.11,<2.15
+numpy>=2.3,<3

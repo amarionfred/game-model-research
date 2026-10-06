@@ -1,0 +1,20 @@
+{
+  "kind": "software_validation",
+  "not_a_swarm_quality_result": true,
+  "tests_passed": 6,
+  "command": ".local/ml-venv/bin/python -m unittest discover -s tests -v",
+  "source_hashes": {
+    "swarm/__init__.py": "a567d42a0bb747417dee651c3992d0eee326396003bddc2bf557f002e691ba78",
+    "swarm/model.py": "21faeb9cf5b12d6c55574b16c961bda3e162198163497f1dc2c7a04298a2e9e2",
+    "swarm/training.py": "00e42782c7ea2c6c769ed2e2d9d42aa52b30fe6a36ba62af7d293dd46ca81553",
+    "swarm/calibrate.py": "7a3c21ad9dd7c434988dc8442ce9cdfc8f13db428e723b84a3ee6a715c4bd58f",
+    "tests/test_swarm_core.py": "89910bd31901df9255ccae1fe35a57fea1155de376d08b0db75d93bef760e3cf"
+  },
+  "synthetic_fixture_only": true,
+  "ai_assistance": "Implemented and checked by Codex; user supplied direction and approvals.",
+  "environment": {
+    "python": "3.14.7",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.3"
+  }
+}
