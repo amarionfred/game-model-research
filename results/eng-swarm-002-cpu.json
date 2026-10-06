@@ -1,0 +1,36 @@
+{
+  "id": "ENG-SWARM-002",
+  "kind": "software_validation",
+  "not_a_swarm_quality_result": true,
+  "time_utc": "2026-10-06T12:02:43.442981+00:00",
+  "command": "python -m unittest discover -s tests -v",
+  "tests_passed": 10,
+  "wall_seconds": 7.183550456997182,
+  "source_hashes": {
+    "swarm/data.py": "ea7184973abd17479274437b0e53934e1d3cbc274326c45192bb259c24838220",
+    "swarm/clustering.py": "7a90f0e44a4f55aee344d6434bceca07453d2dd4e9b79e883bd37b19c8fd3232",
+    "tests/test_swarm_data.py": "1964ae523349f40e316804c5f318f305475ecf2a23006a2f3b134ab1dc004c27",
+    "swarm/model.py": "21faeb9cf5b12d6c55574b16c961bda3e162198163497f1dc2c7a04298a2e9e2",
+    "swarm/training.py": "00e42782c7ea2c6c769ed2e2d9d42aa52b30fe6a36ba62af7d293dd46ca81553",
+    "tests/test_swarm_core.py": "89910bd31901df9255ccae1fe35a57fea1155de376d08b0db75d93bef760e3cf"
+  },
+  "checks": [
+    "normalized document identity",
+    "fixed evaluation partition",
+    "balanced group capacities",
+    "future suffix excluded from router",
+    "sparse route normalization",
+    "six existing numerical model/training checks"
+  ],
+  "environment": {
+    "python": "3.14.7",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.3",
+    "tokenizers": "0.23.2",
+    "scikit-learn": "1.9.1",
+    "datasketch": "1.10.0",
+    "joblib": "1.6.0"
+  },
+  "raw_text_or_test_answers_published": false,
+  "ai_assistance": "Implemented and checked by Codex; user supplied direction and approvals."
+}
