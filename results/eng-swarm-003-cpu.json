@@ -1,0 +1,29 @@
+{
+  "id": "ENG-SWARM-003",
+  "kind": "software_validation",
+  "time_utc": "2026-10-06T12:14:43.409379+00:00",
+  "command": "python -m unittest discover -s tests -v",
+  "tests_passed": 12,
+  "unittest_reported_seconds": 3.361,
+  "source_hashes": {
+    "swarm/run_grid.py": "df0aa4927b1daa0f94fc487ec9f4135f75251ac18fa5cda2f26da3a36458d879",
+    "swarm/bundle.py": "bd7a404fd030ef3b4beec0bf54bfcb88c30fcc73b4eaadf4dbe24ab6e6c2ee47",
+    "tests/test_swarm_grid.py": "d700d3e28c7e0f3b1b6f477552c1c886a9b79e6cce60935981b57a00205b56f2",
+    "swarm/model.py": "21faeb9cf5b12d6c55574b16c961bda3e162198163497f1dc2c7a04298a2e9e2",
+    "swarm/training.py": "00e42782c7ea2c6c769ed2e2d9d42aa52b30fe6a36ba62af7d293dd46ca81553",
+    "swarm/data.py": "ea7184973abd17479274437b0e53934e1d3cbc274326c45192bb259c24838220",
+    "swarm/clustering.py": "7a90f0e44a4f55aee344d6434bceca07453d2dd4e9b79e883bd37b19c8fd3232"
+  },
+  "checks_added": [
+    "same standalone token budget for dense and expert systems",
+    "parent-before-branch dependencies",
+    "dense compute rounding less than one batch",
+    "complete nonoverlapping continuation coverage across specialists",
+    "repeatable within-partition order"
+  ],
+  "planned_training_trajectories": 198,
+  "planned_system_outcomes": 60,
+  "corpus_training_driver_gpu_status": "not yet exercised",
+  "not_a_swarm_quality_result": true,
+  "ai_assistance": "Implemented and checked by Codex; user supplied direction and approvals."
+}
